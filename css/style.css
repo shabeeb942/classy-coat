@@ -686,6 +686,10 @@ header {
         left: 70px;
         display: none;
     }
+    .logo img {
+        width: 100%;
+        height: 100px;
+    }
   }
 
 
@@ -1322,9 +1326,10 @@ color: #843F0F !important;
 .contact-section input, textarea {
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #5a3d29;
+    border-radius: 10px;
     font-size: 16px;
+    background: transparent;
 }
 
 .contact-section button {
@@ -1338,6 +1343,7 @@ color: #843F0F !important;
     font-family: "Gill Sans", sans-serif;
     border-radius: 30px;
     border: 0px solid #f1f1f1 !important;
+    width: 50%;
 }
 
 .contact-section button:hover {
@@ -1376,7 +1382,7 @@ color: #843F0F !important;
 	width:60px;
 	height:60px;
 	bottom:50%;
-	right:40px;
+	right:20px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
