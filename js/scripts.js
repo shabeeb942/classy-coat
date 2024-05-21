@@ -76,7 +76,7 @@ showSlide(slideIndex);
 
 var swiper = new Swiper(".swiper", {
     effect: "coverflow",
-    grabCursor: true,
+    grabCursor: false,
     centeredSlides: true,
     coverflowEffect: {
       rotate: 0,
@@ -94,9 +94,9 @@ var swiper = new Swiper(".swiper", {
     keyboard: {
       enabled: true
     },
-    mousewheel: {
-      thresholdDelta: 70
-    },
+    // mousewheel: {
+    //   thresholdDelta: 70
+    // },
     breakpoints: {
       560: {
         slidesPerView: 2.5
